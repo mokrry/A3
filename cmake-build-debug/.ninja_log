@@ -1,0 +1,8 @@
+# ninja log v5
+2	555	7541731736780206	CMakeFiles/A3.dir/main.cpp.obj	ef16123e9554e6bb
+728	899	7541731739981310	A3.exe	d02d56a1ff0b61f6
+1	144	7541731890540426	build.ninja	2961cd038a5056d6
+7	727	7541731738509302	CMakeFiles/A3.dir/sort_tester.cpp.obj	b21c3ab9697fa4ee
+6	732	7541729631291963	CMakeFiles/A3.dir/array_generator.cpp.obj	f1c8d3f4e97b9cfd
+2	496	7541732056475085	CMakeFiles/A3.dir/main.cpp.obj	ef16123e9554e6bb
+497	624	7541732057686718	A3.exe	d02d56a1ff0b61f6
