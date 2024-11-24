@@ -10,4 +10,4 @@ public:
     static std::vector<int> generateNearlySortedArray(int size, int swaps = 10);
 };
 
-#endif  ARRAYGENERATOR_H
+#endif  //ARRAYGENERATOR_H

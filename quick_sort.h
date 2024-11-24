@@ -7,7 +7,7 @@
 #include <ctime>
 #include "helping_functions.h"
 
-int partition(std::vector<int> &arr, int left, int right) {
+inline int partition(std::vector<int> &arr, int left, int right) {
 
     int pivotIndex = left + rand() % (right - left + 1);
     int pivotValue = arr[pivotIndex];
@@ -23,7 +23,7 @@ int partition(std::vector<int> &arr, int left, int right) {
     return i;
 }
 
-void quickSort(std::vector<int> &arr, int left, int right) {
+inline void quickSort(std::vector<int> &arr, int left, int right) {
     if (left < right) {
         int pivot = partition(arr, left, right);
         quickSort(arr, left, pivot - 1);
@@ -31,7 +31,7 @@ void quickSort(std::vector<int> &arr, int left, int right) {
     }
 }
 
-void quickSort(std::vector<int> &arr) {
+inline void quickSort(std::vector<int> &arr) {
     quickSort(arr, 0, arr.size() - 1);
 }
 

@@ -9,7 +9,7 @@
 #include "heap_sort.h"
 #include "quick_sort.h"
 
-void introSort(std::vector<int>& arr, int left, int right, int depth_limit) {
+inline void introSort(std::vector<int>& arr, int left, int right, int depth_limit) {
     int size = right - left + 1;
 
     if (size < 16) {
@@ -24,7 +24,7 @@ void introSort(std::vector<int>& arr, int left, int right, int depth_limit) {
 }
 
 
-void introSort(std::vector<int>& arr) {
+inline void introSort(std::vector<int>& arr) {
     int n = arr.size();
     int depth_limit = 2 * std::log2(n);
     introSort(arr, 0, n - 1, depth_limit);

@@ -30,7 +30,7 @@ inline void heapSort(std::vector<int>& arr) {
     }
 }
 
-void heapSort(std::vector<int>& arr, int left, int right) {
+inline void heapSort(std::vector<int>& arr, int left, int right) {
     for (int i = (right / 2) - 1; i >= left; --i) {
         heapify(arr, right + 1, i);
     }
